@@ -10,7 +10,7 @@ class Solution {
             int mid = start +(end-start)/2;
             int sum = 0 ; 
             int pieces = 1;
-            for(int num : nums){
+            for(int num : nums){ //
                 if((sum +num)>mid){
                     sum = num;
                     pieces++;
