@@ -30,4 +30,4 @@ class Solution {
             return num * temp * temp;
         }
     }
-}
+}//
